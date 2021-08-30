@@ -30,6 +30,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   http:
   json_annotation:
+  fl_paging:
+  tuple: 
 
 dev_dependencies:
   flutter_test:

@@ -9,9 +9,10 @@ part 'person_model.g.dart';
 class PersonModel {
   NameModel? name;
   String? phone;
+  String? email;
   PictureModel? picture;
 
-  PersonModel({this.name, this.phone, this.picture});
+  PersonModel({this.name, this.phone, this.email, this.picture});
 
   factory PersonModel.fromJson(Map<String, dynamic> json) => _$PersonModelFromJson(json);
   Map<String, dynamic> toJson() => _$PersonModelToJson(this);
